@@ -137,3 +137,23 @@ display: inline-block;
     background-color: rgba(255,240,240,0.5);
     border-radius: 12px;
 }
+
+/* --- Penguin add-on --- */
+.hidden { display: none; }
+
+#final-images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.penguin{
+  width: 180px;
+  height: auto;
+}
+
+.letter-window.final #final-images{
+  margin-top: 10px;
+}
