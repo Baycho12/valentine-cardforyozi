@@ -69,4 +69,5 @@ yesBtn.addEventListener("click", () => {
     buttons.style.display = "none";
 
     finalText.style.display = "block";
+    document.getElementById("final-penguin").classList.remove("hidden");
 });
